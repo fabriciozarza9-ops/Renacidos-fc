@@ -1,0 +1,90 @@
+<!DOCTYPE html><html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Renacidos FC</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom, #0f0f0f, #1c1c1c);
+      color: white;
+      text-align: center;
+    }
+    header {
+      padding: 20px;
+      background: black;
+      box-shadow: 0 0 10px rgba(255,255,255,0.2);
+    }
+    h1 {
+      font-size: 2.5em;
+      margin: 0;
+    }
+    .tagline {
+      color: #ff4444;
+      font-style: italic;
+    }
+    section {
+      padding: 20px;
+    }
+    .box {
+      background: #222;
+      margin: 15px auto;
+      padding: 15px;
+      border-radius: 15px;
+      max-width: 400px;
+      box-shadow: 0 0 10px rgba(255,255,255,0.1);
+      /* Agregué un borde rojo sutil a la izquierda para que se vea más pro */
+      border-left: 4px solid #ff4444; 
+    }
+    button {
+      background: #ff4444;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 10px;
+      color: white;
+      font-size: 1em;
+      cursor: pointer;
+      text-decoration: none; /* Para el botón de mapa */
+      display: inline-block; /* Para el botón de mapa */
+    }
+    button:hover {
+      background: #ff2222;
+    }
+    /* Estilo especial para el botón verde del mapa */
+    .btn-mapa {
+      background: #34a853;
+      margin-top: 10px;
+    }
+    .btn-mapa:hover {
+      background: #2d9249;
+    }
+  </style>
+</head>
+<body><header>
+  <h1>⚽ Renacidos FC</h1>
+  <p class="tagline">"Renace más fuerte cada día"</p>
+</header><section>
+  <div class="box">
+    <h2>📍 Información</h2>
+    <p>Ubicación: Caaguazú</p>
+    <a href="https://www.google.com/maps/search/?api=1&query=GXVQ%2BWW8%2C+Caaguaz%C3%BA" target="_blank">
+      <button class="btn-mapa">📍 GXVQ+WW8, Caaguazú</button>
+    </a>
+    <p>Horarios: Todos los días</p>
+    <p>Precio: GRATIS</p>
+  </div>  <div class="box">
+    <h2>💥 ¿Qué es?</h2>
+    <p>Un club donde venís a mejorar, divertirte y jugar fútbol sin presión.</p>
+  </div>  <div class="box">
+    <h2>🧠 Actividades</h2>
+    <p>- Entrenamientos<br>- Partidos<br>- Retos<br>- Trabajo en equipo</p>
+  </div>  <div class="box">
+    <h2>⚡ Únete</h2>
+    <p>Vení directo a jugar o hablame</p>
+    <button onclick="alert('¡Dale bro! Venite a la cancha en el horario de entrenamiento y pregunta por el capitán. ¡Te esperamos!')">
+      ¡Quiero Jugar!
+    </button>
+  </div></section>
+</body>
+</html>
